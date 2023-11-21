@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add react-router-dome
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\KashifCh_Eth\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Users\KashifCh_Eth\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\KashifCh_Eth\AppData\Local\Programs\Python\Python310\;C:\Users\KashifCh_Eth\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\KashifCh_Eth\AppData\Local\Programs\Python\Python311\;C:\Users\KashifCh_Eth\.cargo\bin;C:\Users\KashifCh_Eth\.local\share\solana\install\active_release\bin;C:\Users\KashifCh_Eth\AppData\Local\Microsoft\WindowsApps;C:\Users\KashifCh_Eth\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\KashifCh_Eth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KashifCh_Eth\AppData\Local\gitkraken\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-router-dome: Not found
+      at Request.params.callback [as _callback] (C:\Users\KashifCh_Eth\AppData\Roaming\nvm\v16.20.2\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\KashifCh_Eth\AppData\Roaming\nvm\v16.20.2\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\KashifCh_Eth\AppData\Roaming\nvm\v16.20.2\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\KashifCh_Eth\AppData\Roaming\nvm\v16.20.2\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "eccomm-project",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "axios": "^1.5.1",
+      "localforage": "^1.10.0",
+      "match-sorter": "^6.3.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^6.16.0",
+      "sort-by": "^1.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.15",
+      "@types/react-dom": "^18.2.7",
+      "@vitejs/plugin-react": "^4.0.3",
+      "autoprefixer": "^10.4.16",
+      "eslint": "^8.45.0",
+      "eslint-plugin-react": "^7.32.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.3",
+      "postcss": "^8.4.31",
+      "tailwindcss": "^3.3.3",
+      "vite": "^4.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
